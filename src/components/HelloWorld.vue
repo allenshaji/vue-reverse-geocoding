@@ -10,13 +10,13 @@
             <div class="col-md-3">
               <div class="form-group">
                 <label>Enter Latitude</label>
-                <input id="latVillage" type="text" class="form-control" placeholder="Lattitude of Village" name="latVillage" required v-model="lat" pattern="^[0-9]+\.[0-9][0-9][0-9][0-9]$" maxlength="7" oninvalid="this.setCustomValidity('Enter a valid Latitude')" oninput="this.setCustomValidity('')">
+                <input id="latVillage" type="text" class="form-control" placeholder="Lattitude of Village" name="latVillage" required v-model="lat" pattern="^[0-9]+\.[0-9][0-9][0-9][0-9]$" maxlength="10" oninvalid="this.setCustomValidity('Enter a valid Latitude')" oninput="this.setCustomValidity('')">
               </div>
             </div>
             <div class="col-md-3">
               <div class="form-group">
                 <label>Enter Longitude</label>
-                <input id="lngVillage" type="text" class="form-control" placeholder="Longitude of Village" name="lngVillage" required="" v-model="lng" pattern="^[0-9]+\.[0-9][0-9][0-9][0-9]$" maxlength="7" oninvalid="this.setCustomValidity('Enter a valid Longitude')" oninput="this.setCustomValidity('')">
+                <input id="lngVillage" type="text" class="form-control" placeholder="Longitude of Village" name="lngVillage" required="" v-model="lng" pattern="^[0-9]+\.[0-9][0-9][0-9][0-9]$" maxlength="10" oninvalid="this.setCustomValidity('Enter a valid Longitude')" oninput="this.setCustomValidity('')">
               </div>
             </div>
 
